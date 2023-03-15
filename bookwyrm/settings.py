@@ -421,3 +421,5 @@ if HTTP_X_FORWARDED_PROTO:
 # Do not change this setting unless you already have an existing
 # user with the same username - in which case you should change it!
 INSTANCE_ACTOR_USERNAME = "bookwyrm.instance.actor"
+
+PLAUSIBLE_SCRIPT_URL = env("PLAUSIBLE_SCRIPT_URL", None)
